@@ -51,7 +51,7 @@ void loop() {
   } 
   else {
 
-    // 🛑 STOP
+    // STOP
     stopCar();
     delay(100);
 
@@ -62,7 +62,7 @@ void loop() {
     stopCar();
     delay(100);
 
-    // 🔍 SCAN LEFT & RIGHT
+    //  SCAN LEFT & RIGHT
     int rightDist = lookRight();
     int leftDist  = lookLeft();
 
